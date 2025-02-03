@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          repository: release-target
+          repository: soloam/release-target
           ref: 'master'
           token:  ${{ secrets.TARGET_SOURCE_TOKEN }}
       - name: setup git config
